@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<remote
+		name="pe"
+		fetch="https://github.com/PixelExperience"
+		revision="thirteen"
+		review="gerrit.pixelexperience.org"/>
+
+	<remote
+		name="pe-devices"
+		fetch="https://github.com/PixelExperience-Devices"
+		revision="thirteen"/>
+
+	<remote
+		name="pe-devices-blobs"
+		fetch="https://gitlab.pixelexperience.org/android/vendor-blobs "
+		revision="thirteen"/>
+
+	<remote
+		name="AkazaaMoon"
+		fetch="https://github.com/AkazaaMoon"/>
+
+	<project
+		path="device/xiaomi/chime"
+		name="dt_chime"
+		clone-depth="1"
+		revision="thirteen"
+		remote="AkazaaMoon"/>
+
+	<project
+		path="vendor/xiaomi/chime"
+		name="vendor_xiaomi_chime"
+		clone-depth="1"
+		remote="pe-devices-blobs"/>
+
+	<project
+		path="vendor/xiaomi/citrus"
+		name="vendor_xiaomi_citrus"
+		clone-depth="1"
+		remote="pe-devices-blobs"/>
+
+	<project
+		path="vendor/xiaomi/lime"
+		name="vendor_xiaomi_lime"
+		clone-depth="1"
+		remote="pe-devices-blobs"/>
+
+	<project
+		path="kernel/xiaomi/chime "
+		name="kernel_xiaomi_chime"
+		clone-depth="1"
+		remote="pe-devices "/>
+	
+  <!-- Hardware for bengal -->
+	<project
+		path="hardware/qcom-caf/bengal/audio"
+		name="hardware_qcom-caf_bengal_audio"
+		clone-depth="1"
+		remote="pe"/>
+
+	<project
+		path="hardware/qcom-caf/bengal/display"
+		name="hardware_qcom-caf_bengal_display"
+		clone-depth="1"
+		remote="pe"/>
+
+	<project
+		path="hardware/qcom-caf/bengal/gps"
+		name="hardware_qcom-caf_bengal_gps"
+		clone-depth="1"
+		remote="pe"/>
+
+	<project
+		path="hardware/qcom-caf/bengal/media"
+		name="hardware_qcom-caf_bengal_media"
+		clone-depth="1"
+		remote="pe"/>
+
+</manifest>
+
+ 
