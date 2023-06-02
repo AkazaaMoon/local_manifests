@@ -48,7 +48,7 @@
 		remote="pe-devices-blobs"/>
 
 	<project
-		path="kernel/xiaomi/chime "
+		path="kernel/xiaomi/chime"
 		name="kernel_xiaomi_chime"
 		clone-depth="1"
 		remote="pe-devices"/>
