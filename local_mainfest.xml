@@ -15,7 +15,7 @@
 
 	<remote
 		name="pe-devices-blobs"
-		fetch="https://gitlab.pixelexperience.org/android/vendor-blobs "
+		fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
 		revision="thirteen"/>
 
 	<remote
