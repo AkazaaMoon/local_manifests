@@ -51,7 +51,7 @@
 		path="kernel/xiaomi/chime "
 		name="kernel_xiaomi_chime"
 		clone-depth="1"
-		remote="pe-devices "/>
+		remote="pe-devices"/>
 	
         <!-- Hardware for bengal -->
 	<project
