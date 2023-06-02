@@ -52,31 +52,6 @@
 		name="kernel_xiaomi_chime"
 		clone-depth="1"
 		remote="pe-devices"/>
-	
-        <!-- Hardware for bengal -->
-	<project
-		path="hardware/qcom-caf/bengal/audio"
-		name="hardware_qcom-caf_bengal_audio"
-		clone-depth="1"
-		remote="pe"/>
-
-	<project
-		path="hardware/qcom-caf/bengal/display"
-		name="hardware_qcom-caf_bengal_display"
-		clone-depth="1"
-		remote="pe"/>
-
-	<project
-		path="hardware/qcom-caf/bengal/gps"
-		name="hardware_qcom-caf_bengal_gps"
-		clone-depth="1"
-		remote="pe"/>
-
-	<project
-		path="hardware/qcom-caf/bengal/media"
-		name="hardware_qcom-caf_bengal_media"
-		clone-depth="1"
-		remote="pe"/>
 
 </manifest>
 
