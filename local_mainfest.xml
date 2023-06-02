@@ -53,7 +53,7 @@
 		clone-depth="1"
 		remote="pe-devices "/>
 	
-  <!-- Hardware for bengal -->
+        <!-- Hardware for bengal -->
 	<project
 		path="hardware/qcom-caf/bengal/audio"
 		name="hardware_qcom-caf_bengal_audio"
