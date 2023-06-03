@@ -53,9 +53,9 @@
 		clone-depth="1"
 		remote="pe-devices"/>
 	
-	<remove-project name="frameworks/base" />
+	<remove-project name="frameworks_base" />
 	
-	<project path="frameworks/base" name="frameworks_base" remote="AkazaaMoon" revision="13"/>
+	<project path="frameworks/base" name="fw" remote="AkazaaMoon" revision="13"/>
 
 </manifest>
 
