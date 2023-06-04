@@ -60,7 +60,7 @@
 	
 	<remove-project name="frameworks_base" />
 	
-	<project path="frameworks/base" name="fw" remote="AkazaaMoon" revision="13"/>
+	<project path="frameworks/base" name="fw" remote="AkazaaMoon" revision="b"/>
 
 </manifest>
 
