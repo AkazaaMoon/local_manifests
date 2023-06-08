@@ -66,6 +66,8 @@
 		name="hardware_xiaomi"
 		clone-depth="1"
 		remote="pe"/>
+	
+	<remove-project name="hardware_qcom-caf_bengal_gps" />
 
 </manifest>
 
