@@ -60,6 +60,12 @@
 		clone-depth="1"
 		revision="13"
 		remote="c3eru"/>
+	
+	<project
+		path="hardware/xiaomi"
+		name="hardware_xiaomi"
+		clone-depth="1"
+		remote="pe"/>
 
 </manifest>
 
