@@ -21,47 +21,46 @@
 	<remote
 		name="AkazaaMoon"
 		fetch="https://github.com/AkazaaMoon"/>
-	
+
 	<remote
 		name="c3eru"
 		fetch="https://github.com/c3eru"/>
 
 	<project
-		path="device/xiaomi/chime"
-		name="dt_chime"
+		path="device/xiaomi/citrus"
+		name="device_xiaomi_citrus-1"
 		clone-depth="1"
-		revision="thirteen"
-		remote="AkazaaMoon"/>
+		revision="13"
+		remote="c3eru"/>
 
 	<project
-		path="vendor/xiaomi/chime"
-		name="vendor_xiaomi_chime"
+		path="device/xiaomi/sm6115-common"
+		name="device_xiaomi_sm6115-common-1"
 		clone-depth="1"
-		remote="pe-devices-blobs"/>
+		revision="13"
+		remote="c3eru"/>
 
 	<project
 		path="vendor/xiaomi/citrus"
 		name="vendor_xiaomi_citrus"
 		clone-depth="1"
-		remote="pe-devices-blobs"/>
-
-	<project
-		path="vendor/xiaomi/lime"
-		name="vendor_xiaomi_lime"
-		clone-depth="1"
-		remote="pe-devices-blobs"/>
-
-	<project
-		path="kernel/xiaomi/chime"
-		name="kernel_xiaomi_citrus_sm6115"
-		clone-depth="1"
-		revision="main"
+		revision="13"
 		remote="c3eru"/>
-	
-	<remove-project name="frameworks_base" />
-	
-	<project path="frameworks/base" name="fw" remote="AkazaaMoon" revision="b"/>
+
+	<project
+		path="vendor/xiaomi/sm6115-common"
+		name="vendor_xiaomi_sm6115-common-1"
+		clone-depth="1"
+		revision="13"
+		remote="c3eru"/>
+
+	<project
+		path="kernel/xiaomi/sm6115"
+		name="kernel_xiaomi_chime"
+		clone-depth="1"
+		revision="13"
+		remote="c3eru"/>
 
 </manifest>
 
- 
+
