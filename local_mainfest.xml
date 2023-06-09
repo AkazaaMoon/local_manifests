@@ -56,7 +56,7 @@
 
 	<project
 		path="kernel/xiaomi/sm6115"
-		name="kernel_xiaomi_chime"
+		name="kernel_xiaomi_citrus_sm6115"
 		clone-depth="1"
 		revision="13"
 		remote="c3eru"/>
